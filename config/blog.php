@@ -34,7 +34,7 @@ return [
     // Article Page
     'article' => [
         'title'       => '穷则独善其身，达则兼济天下.',
-        'description' => 'https://aimpeter.xyz',
+        'description' => '原博客地址  http://jimmy9876.top',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
