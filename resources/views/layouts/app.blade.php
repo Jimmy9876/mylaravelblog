@@ -12,6 +12,8 @@
 
     <link rel="shortcut icon" href="{{ config('blog.default_icon') }}">
 
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <title>@yield('title', config('app.name'))</title>
 
     <link rel="stylesheet" href="{{ mix('css/home.css') }}">

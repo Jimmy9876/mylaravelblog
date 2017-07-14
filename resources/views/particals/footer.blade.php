@@ -5,20 +5,20 @@
                 <ul class="connect">
                     <li>
                         <a href="{{ url('/') }}">
-                            <i class="large ion-ios-home"></i>
+                            <i class="fa fa-home fa-2x"></i>
                         </a>
                     </li>
                     @if(config('blog.footer.github.open'))
                     <li>
                         <a href="{{ config('blog.footer.github.url') }}" target="_blank">
-                            <i class="large ion-social-github icon"></i>
+                            <i class="fa fa-github fa-2x"></i>
                         </a>
                     </li>
                     @endif
-                    @if(config('blog.footer.twitter.open'))
+                    @if(config('blog.footer.weibo.open'))
                     <li>
-                        <a href="{{ config('blog.footer.twitter.url') }}" target="_blank">
-                            <i class="large ion-social-twitter"></i>
+                        <a href="{{ config('blog.footer.weibo.url') }}" target="_blank">
+                            <i class="fa fa-weibo fa-2x"></i>
                         </a>
                     </li>
                     @endif

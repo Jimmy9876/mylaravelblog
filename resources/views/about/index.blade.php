@@ -19,42 +19,38 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
 				<div class="panel panel-default">
-					<div class="panel-heading">
-						Who am I?
+					<div class="panel-heading" style="text-align: center">
+						Jimmy
 					</div>
-					<div class="panel-body personal-info">
+					<div class="panel-body personal-info" style="text-align: center">
 						<ul class="list-unstyled">
 							<li>
 								<em>Name</em>
-								<span>陈家健（Jiajian Chan）</span>
-							</li>
-							<li>
-								<em>Gender</em>
-								<span>男</span>
+								<span style="color: #9CAEBF">Jimmy Eric</span>
 							</li>
 							<li>
 								<em>Age</em>
-								<span>95 后</span>
+								<span style="color: #9CAEBF">22</span>
 							</li>
 							<li>
 								<em>Email</em>
-								<span>changejian@gmail.com</span>
+								<span style="color: #9CAEBF">370555337@qq.com</span>
 							</li>
 							<li>
 								<em>Website</em>
-								<span><a target="_blank" href="https://pigjian.com">https://pigjian.com</a></span>
+								<span style="color: #9CAEBF"><a target="_blank" href="https://aimpeter.xyz">Jimmy的技术乐园</a></span>
 							</li>
 							<li>
 								<em>Github</em>
-								<span><a target="_blank" href="https://github.com/jcc"><i class="ion-social-github"></i></a></span>
+								<span style="color: #9CAEBF"><a target="_blank" href="https://github.com/jimmy9876"><i class="ion-social-github"></i>Jimmy9876</a></span>
 							</li>
 							<li>
 								<em>Wechat</em>
-								<span>CJJ09157</span>
+								<span style="color: #9CAEBF">wujunjie12580</span>
 							</li>
 							<li>
 								<em>QQ</em>
-								<span>601360343</span>
+								<span style="color: #9CAEBF">370555337</span>
 							</li>
 						</ul>
 					</div>
