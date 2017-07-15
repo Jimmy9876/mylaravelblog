@@ -21,8 +21,8 @@
 			<div class="links">
 				<a href="/article">Blog</a>
 				{{--  <a href="/share">Share</a>  --}}
-				<a target="_blank" href="http://weibo.com/1839900520">Weibo</a>
-				<a target="_blank" href="http://weibo.com/u/3270306430">GitHub</a>
+				<a target="_blank" href="http://weibo.com/u/3270306430">Weibo</a>
+				<a target="_blank" href="https://github.com/jimmy9876">GitHub</a>
 				<a href="/about">Me</a>
 				<a href="/donate">Donate</a> 
 			</div>
