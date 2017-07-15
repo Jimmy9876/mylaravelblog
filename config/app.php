@@ -51,7 +51,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://pigjian.app'),
+    'url' => env('APP_URL', 'http://aimpeter.xyz'),
 
     /*
     |--------------------------------------------------------------------------
