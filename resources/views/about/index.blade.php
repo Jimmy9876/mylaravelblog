@@ -3,6 +3,7 @@
 @section('content')
     @component('particals.jumbotron')
         <h3>关于我</h3>
+		<h5>以下是我的个人公众号二维码，不定期更新技术干货，欢迎关注</h5>
     @endcomponent
 
 <div class="main">
@@ -14,7 +15,8 @@
 	</div>
 	<div class="container">
 		<div class="user text-center" style="margin-bottom: 20px;">
-			<img src="https://ws2.sinaimg.cn/large/006tKfTcgy1fhjh929sthj30ak0akt8w.jpg" class="avatar img-circle">
+			{{--  <img src="https://ws2.sinaimg.cn/large/006tKfTcgy1fhjh929sthj30ak0akt8w.jpg" class="avatar img-circle">  --}}
+			<img src="https://ws1.sinaimg.cn/large/006tNc79gy1fhkwr6iwncj30760760t7.jpg">
 		</div>
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
