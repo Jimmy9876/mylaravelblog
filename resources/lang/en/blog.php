@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Donate'      => 'Donate',
     'About'       => 'About',
     'Articles'    => 'Articles',
     'Article'     => 'Article',

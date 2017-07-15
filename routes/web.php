@@ -6,7 +6,7 @@ Route::post('password/change', 'UserController@changePassword')->middleware('aut
 
 // Github Auth Route
 Route::group(['prefix' => 'auth/github'], function () {
-    Route::get('/', 'Auth\AuthController@redirectToProvider');
+    Route::get('/article', 'Auth\AuthController@redirectToProvider');
     Route::get('callback', 'Auth\AuthController@handleProviderCallback');
     Route::get('register', 'Auth\AuthController@create');
     Route::post('register', 'Auth\AuthController@store');
@@ -20,7 +20,7 @@ Route::resource('discussion', 'DiscussionController', ['except' => 'destroy']);
 
 // User
 Route::group(['prefix' => 'user'], function () {
-    Route::get('/', 'UserController@index');
+    Route::get('/article', 'UserController@index');
 
     Route::group(['middleware' => 'auth'], function () {
         Route::get('profile', 'UserController@edit');
@@ -31,7 +31,7 @@ Route::group(['prefix' => 'user'], function () {
     });
 
     Route::group(['prefix' => '{username}'], function () {
-        Route::get('/', 'UserController@show');
+        Route::get('/article', 'UserController@show');
         Route::get('comments', 'UserController@comments');
         Route::get('following', 'UserController@following');
         Route::get('discussions', 'UserController@discussions');
@@ -40,7 +40,7 @@ Route::group(['prefix' => 'user'], function () {
 
 // User Setting
 Route::group(['middleware' => 'auth', 'prefix' => 'setting'], function () {
-    Route::get('/', 'SettingController@index')->name('setting.index');
+    Route::get('/article', 'SettingController@index')->name('setting.index');
     Route::get('binding', 'SettingController@binding')->name('setting.binding');
 
     Route::get('notification', 'SettingController@notification')->name('setting.notification');
@@ -50,18 +50,21 @@ Route::group(['middleware' => 'auth', 'prefix' => 'setting'], function () {
 // Link
 Route::get('link', 'LinkController@index');
 
+// Donate
+Route::get('donate', 'DonateController@index');
+
 // About
 Route::get('about', 'AboutController@index');
 
 // Category
 Route::group(['prefix' => 'category'], function () {
     Route::get('{category}', 'CategoryController@show');
-    Route::get('/', 'CategoryController@index');
+    Route::get('/article', 'CategoryController@index');
 });
 
 // Tag
 Route::group(['prefix' => 'tag'], function () {
-    Route::get('/', 'TagController@index');
+    Route::get('/article', 'TagController@index');
     Route::get('{tag}', 'TagController@show');
 });
 
@@ -71,5 +74,8 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['auth', 'admin']], funct
 });
 
 // Article
-Route::get('/', 'ArticleController@index');
+Route::get('/article', 'ArticleController@index');
 Route::get('{slug}', 'ArticleController@show');
+
+//Welcome
+Route::get('/', 'WelcomeController@index');

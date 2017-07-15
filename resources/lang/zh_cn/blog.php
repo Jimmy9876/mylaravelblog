@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'Donate'      => '打赏',
     'About'       => '关于',
     'Articles'    => '文章',
     'Article'    => '文章',
