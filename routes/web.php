@@ -6,7 +6,7 @@ Route::post('password/change', 'UserController@changePassword')->middleware('aut
 
 // Github Auth Route
 Route::group(['prefix' => 'auth/github'], function () {
-    Route::get('/article', 'Auth\AuthController@redirectToProvider');
+    Route::get('/', 'Auth\AuthController@redirectToProvider');
     Route::get('callback', 'Auth\AuthController@handleProviderCallback');
     Route::get('register', 'Auth\AuthController@create');
     Route::post('register', 'Auth\AuthController@store');
@@ -20,7 +20,7 @@ Route::resource('discussion', 'DiscussionController', ['except' => 'destroy']);
 
 // User
 Route::group(['prefix' => 'user'], function () {
-    Route::get('/article', 'UserController@index');
+    Route::get('/', 'UserController@index');
 
     Route::group(['middleware' => 'auth'], function () {
         Route::get('profile', 'UserController@edit');
@@ -31,7 +31,7 @@ Route::group(['prefix' => 'user'], function () {
     });
 
     Route::group(['prefix' => '{username}'], function () {
-        Route::get('/article', 'UserController@show');
+        Route::get('/', 'UserController@show');
         Route::get('comments', 'UserController@comments');
         Route::get('following', 'UserController@following');
         Route::get('discussions', 'UserController@discussions');
@@ -40,7 +40,7 @@ Route::group(['prefix' => 'user'], function () {
 
 // User Setting
 Route::group(['middleware' => 'auth', 'prefix' => 'setting'], function () {
-    Route::get('/article', 'SettingController@index')->name('setting.index');
+    Route::get('/', 'SettingController@index')->name('setting.index');
     Route::get('binding', 'SettingController@binding')->name('setting.binding');
 
     Route::get('notification', 'SettingController@notification')->name('setting.notification');
