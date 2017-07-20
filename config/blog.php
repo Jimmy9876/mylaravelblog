@@ -60,6 +60,6 @@ return [
         'meta' => '© Jimmy的技术乐园 2017 | Designed by Jimmy Eric | 苏ICP备17022607号-1',
     ],
 
-    'license' => '版权声明©<br/>自由转载-非商用-非衍生-保持署名<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">（创意共享4.0许可证）</a>.',
+    'license' => '版权声明©<a href="http://aimpeter.xyz">Jimmy的技术乐园</a><br/>自由转载-非商用-非衍生-保持署名<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">（创意共享4.0许可证）</a>.',
 
 ];
