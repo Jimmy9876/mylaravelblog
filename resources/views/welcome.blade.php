@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>欢迎来到Jimmy的技术乐园</title>
 	<link rel="shortcut icon" href="/images/favicon.ico">
+	<link rel="stylesheet" href="{{ mix('css/home.css') }}">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<style type="text/css">body{margin:0;padding:0;}#particles{position:absolute;width:100%;height:100%;}.full-height{background-color:#fff;color:#6289ad;font-family:'Raleway';font-weight:100;height:100vh;margin:0;overflow:hidden;}.full-height{height:100vh;}.flex-center{align-items:center;display:flex;justify-content:center;}.position-ref{position:relative;}.top-right{position:absolute;right:10px;top:18px;}.content{text-align:center;z-index:100;margin-bottom:15vh;}.title{font-size:84px;}.description{margin:30px 0;font-size:24px;font-weight:bold;}.links>a{color:#9caebf;padding:0 25px;font-size:14px;font-weight:600;letter-spacing:.1rem;text-decoration:none;text-transform:uppercase;}.links>a:hover{color:#52697f;}.m-b-md{margin-bottom:30px;}.avatar{width:120px !important;}</style>
 </head>
 <body>
@@ -19,16 +21,17 @@
 				原blog地址👉<a href="http://jimmy9876.top" style="color: #5E88AE">点我进入</a>👈
 			</div>
 			<div class="links">
-				<a href="/article">Blog</a>
+				<a href="/article"><i class="fa fa-globe"></i>博客</a>
 				{{--  <a href="/share">Share</a>  --}}
-				<a target="_blank" href="http://weibo.com/u/3270306430">Weibo</a>
-				<a target="_blank" href="https://github.com/jimmy9876">GitHub</a>
-				<a href="/about">Me</a>
-				<a href="/donate">Donate</a> 
+				{{--  <a target="_blank" href="http://weibo.com/u/3270306430">微博</a>  --}}
+				{{--  <a target="_blank" href="https://github.com/jimmy9876">github</a>  --}}
+				<a href="/about"><i class="fa fa-user-circle"></i>关于</a>
+				<a href="/donate"><i class="fa fa-usd"></i>打赏</a> 
 			</div>
 		</div>
 	</div>
-	 <script src="//cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script> 
+	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	<script src="//cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script> 
 	<script type="text/javascript" src="http://7u2ss1.com1.z0.glb.clouddn.com/love.js"></script>
 	{{--  <script type="text/javascript" color="255,0,0" opacity="0.3" count="99" src="http://7u2ss1.com1.z0.glb.clouddn.com/particle.js"></script>  --}}
 	 <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -61,5 +64,14 @@
 }
 },"retina_detect":true
 });</script> 
+
+<footer>
+    <div class="copy-right text-center">
+        <span style="color: #5E88AE">{!! config('blog.footer.meta') !!}
+		<br>
+		<span id="busuanzi_container_site_pv" style="color: #F78AE0"><i class="fa fa-free-code-camp"></i>热度<span id="busuanzi_value_site_pv"></span>℃</span>
+    </div>
+</footer>
+
 </body>
 </html>
