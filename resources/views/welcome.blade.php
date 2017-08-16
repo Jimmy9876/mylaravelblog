@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="/images/favicon.ico">
 	<link rel="stylesheet" href="{{ mix('css/home.css') }}">
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<style type="text/css">body{margin:0;padding:0;}#particles{position:absolute;width:100%;height:100%;}.full-height{background-color:#fff;color:#6289ad;font-family:'Raleway';font-weight:100;height:100vh;margin:0;overflow:hidden;}.full-height{height:100vh;}.flex-center{align-items:center;display:flex;justify-content:center;}.position-ref{position:relative;}.top-right{position:absolute;right:10px;top:18px;}.content{text-align:center;z-index:100;margin-bottom:15vh;}.title{font-size:84px;}.description{margin:30px 0;font-size:24px;font-weight:bold;}.links>a{color:#9caebf;padding:0 25px;font-size:14px;font-weight:600;letter-spacing:.1rem;text-decoration:none;text-transform:uppercase;}.links>a:hover{color:#52697f;}.m-b-md{margin-bottom:30px;}.avatar{width:120px !important;}</style>
+	<style type="text/css">body{margin:0;padding:0;}#particles{position:absolute;width:100%;height:100%;}.full-height{background-color:#232525;color:#6289ad;font-family:'Raleway';font-weight:100;height:100vh;margin:0;overflow:hidden;}.full-height{height:100vh;}.flex-center{align-items:center;display:flex;justify-content:center;}.position-ref{position:relative;}.top-right{position:absolute;right:10px;top:18px;}.content{text-align:center;z-index:100;margin-bottom:15vh;}.title{font-size:84px;}.description{margin:30px 0;font-size:24px;font-weight:bold;}.links>a{color:#9caebf;padding:0 25px;font-size:14px;font-weight:600;letter-spacing:.1rem;text-decoration:none;text-transform:uppercase;}.links>a:hover{color:#52697f;}.m-b-md{margin-bottom:30px;}.avatar{width:120px !important;}</style>
 </head>
 <body>
 	<div class="flex-center position-ref full-height">
@@ -25,7 +25,7 @@
 				{{--  <a href="/share">Share</a>  --}}
 				{{--  <a target="_blank" href="http://weibo.com/u/3270306430">微博</a>  --}}
 				{{--  <a target="_blank" href="https://github.com/jimmy9876">github</a>  --}}
-				<a href="/about"><i class="fa fa-user-circle"></i>关于</a>
+				<a href="/Jimmy/index.html"><i class="fa fa-user-circle"></i>虞城工作室</a>
 				<a href="/donate"><i class="fa fa-usd"></i>打赏</a> 
 			</div>
 		</div>
@@ -63,7 +63,7 @@
 }
 }
 },"retina_detect":true
-});</script> 
+});</script>   
 
 <footer>
     <div class="copy-right text-center">
