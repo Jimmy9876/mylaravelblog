@@ -22,7 +22,8 @@
                 <li><a href="{{ url('article') }}">{{ lang('Articles') }}</a></li>
                 <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
                 <li><a href="{{ url('about') }}">{{ lang('About') }}</a></li>
-                <li><a href="{{ url('donate') }}">{{ lang('Donate') }}</a></li>  
+                <li><a href="{{ url('donate') }}">{{ lang('Donate') }}</a></li> 
+                <li><a href="/resume/resume.html">简历</a></li>   
             </ul>
 
             <!-- Right Side Of Navbar -->
