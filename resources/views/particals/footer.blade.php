@@ -3,11 +3,6 @@
         <div class="row content">
             <div class="col-md-4 col-md-offset-4">
                 <ul class="connect">
-                    <li>
-                        <a href="{{ url('/') }}">
-                            <i class="fa fa-home fa-2x"></i>
-                        </a>
-                    </li>
                     @if(config('blog.footer.github.open'))
                     <li>
                         <a href="{{ config('blog.footer.github.url') }}" target="_blank">
@@ -15,6 +10,15 @@
                         </a>
                     </li>
                     @endif
+                    <li>
+                        {{-- <a href="{{ url('/') }}">
+                            <i class="fa fa-home fa-2x"></i>
+                        </a> --}}
+                        <a class="social weixin" href="javascript:">
+                            <img class="qrcode" src="/images/weixin.jpg" alt="微信公众号">
+                            <i class="fa fa-weixin fa-2x"></i>
+                        </a>
+                    </li>
                     @if(config('blog.footer.weibo.open'))
                     <li>
                         <a href="{{ config('blog.footer.weibo.url') }}" target="_blank">
