@@ -23,7 +23,9 @@
                 <li><a href="{{ url('discussion') }}">{{ lang('Discussions') }}</a></li>
                 <li><a href="{{ url('about') }}">{{ lang('About') }}</a></li>
                 <li><a href="{{ url('donate') }}">{{ lang('Donate') }}</a></li> 
-                <li><a href="/resume/resume.html">简历</a></li>   
+                <li><a href="/resume/resume.html">简历</a></li>
+                <li><a href="/picture/index.html">壁纸</a></li>  
+                <li><a href="/sony/index.html">摄影</a></li>  
             </ul>
 
             <!-- Right Side Of Navbar -->
