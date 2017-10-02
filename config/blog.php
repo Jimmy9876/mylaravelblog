@@ -27,15 +27,17 @@ return [
 
     // Google Analytics
     'google' => [
-        'id'   => env('GOOGLE_ANALYTICS_ID', 'Google-Analytics-ID'),
-        'open' => env('GOOGLE_OPEN') ?: false
+        // 'id'   => env('GOOGLE_ANALYTICS_ID', 'Google-AnalyticIDs-'),UA-106459506-1
+        'id'   => 'UA-106459506-1',
+        // 'open' => env('GOOGLE_OPEN') ?: false
+        'open' => true,
     ],
 
     // Article Page
     'article' => [
         'title'       => '穷则独善其身，达则兼济天下.',
         'description' => '原博客地址  http://jimmy9876.top',
-        'number'      => 15,
+        'number'      => 5,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
     ],
